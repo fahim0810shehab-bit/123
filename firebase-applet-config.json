@@ -1,0 +1,10 @@
+{
+  "projectId": "student-transcript-analyzer",
+  "appId": "1:967904485507:web:fed68da21cd512eb74fbb6",
+  "apiKey": "AIzaSyA5ve7TJHu8wSavu4QlSNikrzLh8L1njcw",
+  "authDomain": "student-transcript-analyzer.firebaseapp.com",
+  "firestoreDatabaseId": "ai-studio-1c014989-e51d-47b3-b91c-01b932386457",
+  "storageBucket": "student-transcript-analyzer.firebasestorage.app",
+  "messagingSenderId": "967904485507",
+  "measurementId": ""
+}

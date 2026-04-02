@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow the Node.js backend to read/write history
+    // In a real production app, you would use the Firebase Admin SDK with a service account.
+    // Since we are using the client SDK on the server without auth, we must allow access.
+    match /history/{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

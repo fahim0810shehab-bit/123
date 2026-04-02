@@ -1,0 +1,5 @@
+{
+  "name": "NSU Transcript Analyzer",
+  "description": "Upload North South University student transcripts (PDF, Image, CSV) for analysis using Gemini AI. Features three levels of analysis.",
+  "requestFramePermissions": []
+}
